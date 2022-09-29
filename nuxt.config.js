@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt',
+    title: 'RESE',
     htmlAttrs: {
       lang: 'ja'
     },
@@ -71,10 +71,6 @@ export default {
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
     baseURL: process.env.API_URL,
-  },
-
-  proxy: {
-    proxy: true
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
